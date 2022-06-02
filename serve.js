@@ -4,7 +4,7 @@ const express = require("express");
 const ts = require("typescript");
 const genKaitaiFsFiles = require("./genKaitaiFsFiles");
 
-const port = 8000;
+const port = 9000;
 const watchPattern = /(\.html$)|(^js\/)|(^css\/)$/;
 const ignorePattern = /node_modules/;
 const tsFormatHost = {
